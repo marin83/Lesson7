@@ -1,0 +1,20 @@
+nav {
+    float : left;
+    background-color:lightblue;
+    width:150px;
+}
+
+main{
+    margin:0 200px 0 200px;
+    background-color: lightpink;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+aside {
+    float:right;
+    background-color: lightyellow;
+    width:200px;
+}
