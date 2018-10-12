@@ -1,39 +1,83 @@
-nav {
-    float : left;
-    background-color:lightblue;
-    width:15%;
-    height:2400px;
+@media (min-width:320px) {
+    nav {
+        float : left;
+        background-color:lightblue;
+        width:15%;
+        height:2400px;
+    }
+
+    main{
+        margin-left: 5px;
+        margin-right:auto;
+        background-color: lightpink;
+        padding-left:25px;
+        padding-right:25px;
+        width: 64%;
+        max-width : 64%;
+        display:inline-block;
+        height:2400px;
+    }
+
+
+    ul li {
+        list-style-type: none;
+    }
+
+    footer {
+        clear: both;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        background-color: aquamarine;
+        height:200px;
+    }
+
+    aside {
+        float: right;
+        background-color: lightyellow;
+        width:15%;
+        height:2400px;
+    }
 }
 
-main{
-    margin-left: 5px;
-    margin-right:auto;
-    background-color: lightpink;
-    padding-left:25px;
-    padding-right:25px;
-    width: 64%;
-    max-width : 64%;
-    display:inline-block;
-    height:2400px;
-}
+@media (min-width:981px) {
+    nav {
+        float : left;
+        background-color:lightblue;
+        width:15%;
+        height:500px;
+    }
+
+    main{
+        margin-left: 5px;
+        margin-right:auto;
+        background-color: lightpink;
+        padding-left:25px;
+        padding-right:25px;
+        width: 64%;
+        max-width : 64%;
+        display:inline-block;
+        height:500px;
+    }
 
 
-ul li {
-    list-style-type: none;
-}
+    ul li {
+        list-style-type: none;
+    }
 
-footer {
-    clear: both;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    background-color: aquamarine;
-    height:200px;
-}
+    footer {
+        clear: both;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        background-color: aquamarine;
+        height:200px;
+    }
 
-aside {
-    float: right;
-    background-color: lightyellow;
-    width:15%;
-    height:2400px;
+    aside {
+        float: right;
+        background-color: lightyellow;
+        width:15%;
+        height:500px;
+    }
 }
