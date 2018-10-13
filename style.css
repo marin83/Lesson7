@@ -1,3 +1,4 @@
+/* Cellphones */
 @media (min-width:320px) {
     nav {
         float : left;
@@ -17,7 +18,6 @@
         display:inline-block;
         height:2400px;
     }
-
 
     ul li {
         list-style-type: none;
@@ -39,7 +39,7 @@
         height:2400px;
     }
 }
-
+/* Desktop */
 @media (min-width:981px) {
     nav {
         float : left;
